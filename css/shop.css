@@ -1,0 +1,171 @@
+/* Estilos específicos da página da loja */
+
+.shop-page {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.shop-banner {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.shop-banner h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.shop-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.category-filter ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category-filter ul li {
+    margin-bottom: 10px;
+}
+
+.category-filter ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.category-filter ul li a:hover {
+    color: #ff8c00;
+}
+
+.price-filter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-filter label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.price-filter input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.price-filter button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.price-filter button:hover {
+    background-color: #45a049;
+}
+
+.product-listing {
+    width: 75%;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    /* Ajuste para ocupar 30% da largura */
+    box-sizing: border-box;
+    /* Garante que padding e border não aumentem a largura */
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-card .price {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.product-card .add-to-cart {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card .add-to-cart:hover {
+    background-color: #e07b00;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-number,
+.next-page {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.page-number:hover,
+.next-page:hover {
+    background-color: #f0f0f0;
+}
+
+.page-number.active {
+    background-color: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+}

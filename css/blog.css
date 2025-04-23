@@ -1,0 +1,170 @@
+/* Estilos específicos da página de blog */
+
+.blog-page {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.blog-banner {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.blog-banner h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.blog-banner p {
+    font-size: 18px;
+    color: #666;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.blog-posts {
+    width: 70%;
+}
+
+.blog-post {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.post-excerpt {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff8c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #e07b00;
+}
+
+.blog-sidebar {
+    width: 25%;
+}
+
+.search-widget,
+.categories-widget,
+.recent-posts-widget {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.search-widget input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-widget button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-widget button:hover {
+    background-color: #45a049;
+}
+
+.categories-widget ul,
+.recent-posts-widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories-widget li,
+.recent-posts-widget li {
+    margin-bottom: 10px;
+}
+
+.categories-widget li a,
+.recent-posts-widget li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.categories-widget li a:hover,
+.recent-posts-widget li a:hover {
+    color: #ff8c00;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-number,
+.next-page {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.page-number:hover,
+.next-page:hover {
+    background-color: #f0f0f0;
+}
+
+.page-number.active {
+    background-color: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+}
